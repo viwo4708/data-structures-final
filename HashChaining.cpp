@@ -2,12 +2,18 @@
 // CSCI2270 Course Project
 //
 // Identification: HashChaining.cpp
+// Defines functions for HashChaining class
 //-----------------------------------------------------------------------------
 
 #include "HashChaining.h"
 
 using namespace std;
 
+//HashChaining(int size)
+//creates an empty hash table with number of buckets passed as a command line arg
+//dynamically allocates memory
+//input: int
+//output: void
 HashChaining::HashChaining(int size)
 {
     this->hashTableSize= size; //set hashTableSize attribute
@@ -18,6 +24,10 @@ HashChaining::HashChaining(int size)
     }
 }
 
+//~HashChaining()
+//destructor for hash table. clears dynamically allocated memory
+//input: none
+//output void
 HashChaining::~HashChaining()
 {
     for (int i = 0; i < hashTableSize; i++) { //iterate through hash table and delete each element
@@ -33,11 +43,19 @@ HashChaining::~HashChaining()
     }
 }
 
+//hash
+//use to get hash code of each course Number
+//input: int
+//output: int
 int HashChaining::hash(int courseNumber) 
 {
     return (courseNumber % hashTableSize); //returns hash of coursenumber
 }
 
+//bulkinsert
+//opens csv file, reads in data, and stores it in a hash table. Populates ProfBST as well
+//input: string
+//output: void
 void HashChaining::bulkInsert(string filename)
 {
     fstream coursefile;
@@ -92,6 +110,10 @@ void HashChaining::bulkInsert(string filename)
     << "Search operations using chaining: " << searches << endl << endl;
 }
 
+//search
+//uses course year, course number, and professor id to serach through hash table and print out information about the searched course
+//input: int, int, string
+//output: void
 void HashChaining::search(int courseYear, int courseNumber, string profId)
 {
     int hashcode = hash(courseNumber);
@@ -122,6 +144,10 @@ void HashChaining::search(int courseYear, int courseNumber, string profId)
     }
 }
 
+//displayallcourses
+// iterates through entire hash table and prints out data for each bucket
+//input: none
+//output: void
 void HashChaining::displayAllCourses()
 {
     cout << "[CHAINING] displayAllCourses()" << endl
@@ -145,6 +171,10 @@ void HashChaining::displayAllCourses()
     }
 }
 
+//displaycourseinfo
+//prints information from course node
+//input: pointer to Course struct
+//output: void
 void HashChaining::displayCourseInfo(Course* c)
 {
     if (!c) {
