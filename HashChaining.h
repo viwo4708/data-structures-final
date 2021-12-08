@@ -23,10 +23,10 @@ class HashChaining
 		HashChaining(int size);
 		~HashChaining();
 		
-        void search(int courseYear, int courseNumber, string profId);		
+       		void search(int courseYear, int courseNumber, string profId);		
 		void bulkInsert(string filename);
 		
-        void displayAllCourses();
+        	void displayAllCourses();
 		void displayCourseInfo(Course* c);
 		
 		int hash(int courseNumber);
