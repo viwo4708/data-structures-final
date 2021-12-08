@@ -43,6 +43,9 @@ class ProfBST
 		void publicSearchProfessor(string profId);
         Professor *searchProfessor(string profId);
 		void displayProfessorInfo(Professor* p);
+		//remove before turning in?
+		void addCoursetoVector(Professor *profnode, Course *newcourse);
+		void displayBST();
 
     private:
 		// add helpers here (if needed)

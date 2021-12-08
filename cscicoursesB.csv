@@ -181,7 +181,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2015,CSCI,1000,CS AS FIELD OF WK & STDY,iantczak9,Ibbie,Antczak
 2015,CSCI,1220,VR: INTRO TO COMP SCI,jcupitt6,Judas,Cupitt
 2015,CSCI,1300,COMP SCI I: PROGRAMMING,atromans1,Ashlen,Tromans
-2015,CSCI,1300,COMP SCI I: PROGRAMMING,atromans1,xchang,Xiao,Chang
+2015,CSCI,1300,COMP SCI I: PROGRAMMING,xchang,Xiao,Chang
 2015,CSCI,1300,COMP SCI I: PROGRAMMING,tjeary8,Trina,Jeary
 2015,CSCI,2270,COMP SCI II: DATA STRUCT,dblakelockl,Daisey,Blakelock
 2015,CSCI,2400,COMPUTER SYSTEMS,llytellf,Lesly,Lytell
@@ -250,7 +250,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2013,CSCI,2270,Computer Science 2: Data Structures,xchang,Xiao,Chang
 2013,CSCI,2400,Computer Systems,tgranhami,Terrence,Granham
 2013,CSCI,2824,Discrete Structures,zanscottd,Zorah,Anscott
-2013,CSCI,2824,Discrete Structures,zanscottd,mchazelasa,Mufi,Chazelas
+2013,CSCI,2824,Discrete Structures,mchazelasa,Mufi,Chazelas
 2013,CSCI,2830,Special Topics in Computer Science,mchazelasa,Mufi,Chazelas
 2013,CSCI,3002,Human-Centered Computing Foundations,ependlebury3,Earlie,Pendlebury
 2013,CSCI,3104,Algorithms,zanscottd,Zorah,Anscott
@@ -431,7 +431,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2008,CSCI,6402,Issues and Methods in Cognitive Science,llytellf,Lesly,Lytell
 2008,CSCI,7000,Current Topics in Computer Science,ependlebury3,Earlie,Pendlebury
 2008,CSCI,7772,Topics in Cognitive Science,ependlebury3,Earlie,Pendlebury
-2008,CSCI,7772,Topics in Cognitive Science,ependlebury3,zroberts,Zach,Roberts
+2008,CSCI,7772,Topics in Cognitive Science,zroberts,Zach,Roberts
 2007,CSCI,1000,Computer Science as a Field of Work and Study,fhamorb,Fidela,Hamor
 2007,CSCI,1300,Computer Science 1: Starting Computing,bfealtye,Batsheva,Fealty
 2007,CSCI,1300,Computer Science 1: Starting Computing,zanscottd,Zorah,Anscott
@@ -506,7 +506,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2005,CSCI,3002,HCC Foundations/User-Centered Design and Development 1,ifredi5,Imogen,Fredi
 2005,CSCI,3002,HCC Foundations/User-Centered Design and Development 1,zroberts,Zach,Roberts
 2005,CSCI,3104,Algorithms,lfullick7,Lester,Fullick
-2005,CSCI,3104,Algorithms,lfullick7,ccook,Clarissa,Cook
+2005,CSCI,3104,Algorithms,ccook,Clarissa,Cook
 2005,CSCI,3112,Human-Centered Computing Professional Development,lnariso,Liz,Naris
 2005,CSCI,3155,Principles of Programming Languages,mchazelasa,Mufi,Chazelas
 2005,CSCI,3308,SoftwareDevelopment Methods and Tools,bfealtye,Batsheva,Fealty
@@ -577,7 +577,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2003,CSCI,4753,COMP PERFORM MODELING,mchazelasa,Mufi,Chazelas
 2003,CSCI,4830,DATA MINING,tgranhami,Terrence,Granham
 2003,CSCI,4830,TPC-GAME PROGRAMMING,wwilson,William,Wilson
-2003,CSCI,4830,ADV COMPUTER GRAPHICS,Batsheva,Fealty
+2003,CSCI,4830,ADV COMPUTER GRAPHICS,Batsheva,Fealty,
 2003,CSCI,4830,ADV COMPUTER GRAPHICS,zroberts,Zach,Roberts
 2003,CSCI,4838,USER INTERFACE DESIGN,tgranhami,Terrence,Granham
 2003,CSCI,5454,DESIGN ANLYS OF ALGOS,nscollan0,Nicky,Scollan
@@ -613,7 +613,7 @@ year,department,couse_num,course_name,prof_id,prof_fname,prof_lname
 2002,CSCI,5573,ADV OPERATING SYSTEMS,phaylesk,Pip,Hayles
 2002,CSCI,5622,MACHINE LEARNING,yblaxtong,Yuma,Blaxton
 2002,CSCI,5919,HUMAN COMPUTER INTERACTN,phaylesk,Pip,Hayles
-2002,CSCI,6000,NEW PHD,zanscottd,adummigan2,Alanah,Dummiga
+2002,CSCI,6000,NEW PHD,adummigan2,Alanah,Dummigan
 2002,CSCI,6268,NETWORK SECURITY,lmyers,Larissa,Myers
 2002,CSCI,6268,NETWORK SECURITY,ccook,Clarissa,Cook
 2001,CSCI,1000,Computer Science as a Field of Work and Study,fhamorb,Fidela,Hamor
